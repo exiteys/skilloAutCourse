@@ -26,5 +26,6 @@ public class problem3 {
 
         System.out.printf("The revenue from sale with discount" +
                 " is %.2f$",revenueWithDiscount);
+        System.out.printf("The discount is: %.2f$",discount);
     }
 }

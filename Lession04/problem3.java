@@ -8,7 +8,7 @@ public class problem3 {
 
         System.out.println("Enter Unit Price:");
         int unitPrice = scanner.nextInt();
-        System.out.println("Enter quantity:`");
+        System.out.println("Enter quantity:");
         int qty = scanner.nextInt();
 
         double discountPercentage = 0;
@@ -25,7 +25,7 @@ public class problem3 {
         double revenueWithDiscount = revenueFromSale-discount;
 
         System.out.printf("The revenue from sale with discount" +
-                " is %.2f$",revenueWithDiscount);
+                " is %.2f$%n",revenueWithDiscount);
         System.out.printf("The discount is: %.2f$",discount);
     }
 }

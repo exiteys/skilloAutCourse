@@ -2,9 +2,9 @@ package lession08.Employee;
 
 
 public class Employee {
-    private int id;
-    private String firstName;
-    private String lastName;
+    private final int id;
+    private final String firstName;
+    private final String lastName;
     private double salary;
 
     public Employee(int id, String firstName, String lastName, double salary) {

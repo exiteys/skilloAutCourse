@@ -5,8 +5,9 @@ public class Main {
         Employee employee = new Employee(1, "Petur", "Petrov", 20);
         String name = employee.getName();
         double annualSalary = employee.getAnnualSalary();
-        double raisedSalary = employee.raiseSalary(10);
+        double raisedSalary = employee.raiseSalary(20);
         annualSalary = employee.getAnnualSalary();
+       // System.out.println(employee.toString());
         System.out.printf("%s, %.2f, %.2f",name,annualSalary,raisedSalary);
     }
 }
